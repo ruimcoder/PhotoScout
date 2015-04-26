@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizer", "PhotoOrganizer\PhotoOrganizer.csproj", "{E2F94470-CE62-40E6-B23C-7755EE0453A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXIFData", "EXIFData\EXIFData.csproj", "{EBAC1A0F-F4C7-4B4B-8B32-25B3CCC61306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05C12700-3399-4B7A-9EAD-807CCDFE9A7E}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PhotoOrganizer.vsmdi = PhotoOrganizer.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonFramework", "CommonFramework\CommonFramework.csproj", "{B3A9AEFF-D753-4786-8DB3-D7E2E118C167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizerTests", "PhotoOrganizerTests\PhotoOrganizerTests.csproj", "{C244F9C6-EC79-4C76-BF3F-6783081A16F7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ruimelo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CommonFramework\\CommonFramework.csproj
+		SccProjectName1 = CommonFramework
+		SccLocalPath1 = CommonFramework
+		SccProjectUniqueName2 = EXIFData\\EXIFData.csproj
+		SccProjectName2 = EXIFData
+		SccLocalPath2 = EXIFData
+		SccProjectUniqueName3 = PhotoOrganizer\\PhotoOrganizer.csproj
+		SccProjectName3 = PhotoOrganizer
+		SccLocalPath3 = PhotoOrganizer
+		SccProjectUniqueName4 = PhotoOrganizerTests\\PhotoOrganizerTests.csproj
+		SccProjectName4 = PhotoOrganizerTests
+		SccLocalPath4 = PhotoOrganizerTests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2F94470-CE62-40E6-B23C-7755EE0453A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F94470-CE62-40E6-B23C-7755EE0453A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F94470-CE62-40E6-B23C-7755EE0453A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F94470-CE62-40E6-B23C-7755EE0453A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAC1A0F-F4C7-4B4B-8B32-25B3CCC61306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAC1A0F-F4C7-4B4B-8B32-25B3CCC61306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAC1A0F-F4C7-4B4B-8B32-25B3CCC61306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAC1A0F-F4C7-4B4B-8B32-25B3CCC61306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A9AEFF-D753-4786-8DB3-D7E2E118C167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A9AEFF-D753-4786-8DB3-D7E2E118C167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A9AEFF-D753-4786-8DB3-D7E2E118C167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A9AEFF-D753-4786-8DB3-D7E2E118C167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C244F9C6-EC79-4C76-BF3F-6783081A16F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C244F9C6-EC79-4C76-BF3F-6783081A16F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C244F9C6-EC79-4C76-BF3F-6783081A16F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C244F9C6-EC79-4C76-BF3F-6783081A16F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PhotoOrganizer.vsmdi
+	EndGlobalSection
+EndGlobal

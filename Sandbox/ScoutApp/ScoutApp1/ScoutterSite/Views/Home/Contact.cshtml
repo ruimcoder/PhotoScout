@@ -1,0 +1,22 @@
+﻿@using ScoutterSite.Resources
+
+
+@{
+    ViewBag.Title = GlobalRes.ContactTitle;
+    ViewBag.Description = GlobalRes.ContactDescription;
+}
+
+<div class="page-header">
+    <h1><span class="fa fa-phone"></span> @ViewBag.Title</h1>
+</div>
+
+<p>@ViewBag.Description</p>
+
+<address>
+    @GlobalRes.ContactAddress
+</address>
+
+<address>
+    <strong>@GlobalRes.LabelSupport:</strong>   <a href="mailto:@GlobalRes.ContactEmailSupport">@GlobalRes.ContactEmailSupport</a><br />
+    <strong>@GlobalRes.LabelMarketing:</strong> <a href="mailto:@GlobalRes.ContactEmailMarketing">@GlobalRes.ContactEmailMarketing</a>
+</address>

@@ -1,0 +1,143 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizer.Cmd", "PhotoOrganizer\PhotoOrganizer.Cmd.csproj", "{4AB8525C-F871-4E6B-8222-AD9CC11B9974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.API", "1.API", "{0180C942-4EA2-41F1-A497-5019B43C4A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Test", "3.Test", "{DD731232-64F7-4D5B-8DEA-D7EE5C0AEAD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizaer.FileManagement", "API\PhotoOrganizaer.FileManagement\PhotoOrganizaer.FileManagement.csproj", "{65542640-C140-4D0A-A5C2-88B6AE0E2864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizer.Core", "API\PhotoOrganizer.Core\PhotoOrganizer.Core.csproj", "{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Deploy", "4.Deploy", "{E5AB1DF2-AA43-404C-9DB3-934F0A08B0F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Presentation", "2.Presentation", "{6622545B-3141-4C3D-9015-25601375FFC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizer.Test", "Test\PhotoOrganizer.Test\PhotoOrganizer.Test.csproj", "{13CCF715-1098-48E5-90D2-CB90985E2C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizaer.FileManagement.Tests", "API\PhotoOrganizaer.FileManagement.Tests\PhotoOrganizaer.FileManagement.Tests.csproj", "{309E509F-D397-4F70-A4B4-BF951651A595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoScouterWeb", "..\..\..\..\ProjectsShare\ruimelo@vs\PhotoScout\Source\dev\PhotoScouter\PhotoScouterWeb\PhotoScouterWeb.csproj", "{E107BBBD-CAB3-4B09-9A48-8437775786A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974}.Release|x86.ActiveCfg = Release|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864}.Release|x86.ActiveCfg = Release|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D}.Release|x86.ActiveCfg = Release|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{13CCF715-1098-48E5-90D2-CB90985E2C73}.Release|x86.ActiveCfg = Release|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Debug|x86.Build.0 = Debug|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Release|x86.ActiveCfg = Release|Any CPU
+		{309E509F-D397-4F70-A4B4-BF951651A595}.Release|x86.Build.0 = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AB8525C-F871-4E6B-8222-AD9CC11B9974} = {6622545B-3141-4C3D-9015-25601375FFC1}
+		{65542640-C140-4D0A-A5C2-88B6AE0E2864} = {0180C942-4EA2-41F1-A497-5019B43C4A5A}
+		{B3F89D7E-F8FF-4DAF-B5BF-12503368B23D} = {0180C942-4EA2-41F1-A497-5019B43C4A5A}
+		{13CCF715-1098-48E5-90D2-CB90985E2C73} = {DD731232-64F7-4D5B-8DEA-D7EE5C0AEAD2}
+		{E107BBBD-CAB3-4B09-9A48-8437775786A8} = {6622545B-3141-4C3D-9015-25601375FFC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ruimelo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = API\\PhotoOrganizaer.FileManagement\\PhotoOrganizaer.FileManagement.csproj
+		SccProjectTopLevelParentUniqueName1 = PhotoOrganizer.sln
+		SccProjectName1 = API/PhotoOrganizaer.FileManagement
+		SccLocalPath1 = API\\PhotoOrganizaer.FileManagement
+		SccProjectUniqueName2 = API\\PhotoOrganizer.Core\\PhotoOrganizer.Core.csproj
+		SccProjectTopLevelParentUniqueName2 = PhotoOrganizer.sln
+		SccProjectName2 = API/PhotoOrganizer.Core
+		SccLocalPath2 = API\\PhotoOrganizer.Core
+		SccProjectUniqueName3 = PhotoOrganizer\\PhotoOrganizer.Cmd.csproj
+		SccProjectTopLevelParentUniqueName3 = PhotoOrganizer.sln
+		SccProjectName3 = PhotoOrganizer
+		SccLocalPath3 = PhotoOrganizer
+		SccProjectUniqueName4 = Test\\PhotoOrganizer.Test\\PhotoOrganizer.Test.csproj
+		SccProjectTopLevelParentUniqueName4 = PhotoOrganizer.sln
+		SccProjectName4 = Test/PhotoOrganizer.Test
+		SccLocalPath4 = Test\\PhotoOrganizer.Test
+		SccProjectUniqueName5 = API\\PhotoOrganizaer.FileManagement.Tests\\PhotoOrganizaer.FileManagement.Tests.csproj
+		SccProjectName5 = API/PhotoOrganizaer.FileManagement.Tests
+		SccLocalPath5 = API\\PhotoOrganizaer.FileManagement.Tests
+		SccProjectUniqueName6 = ..\\..\\..\\..\\ProjectsShare\\ruimelo@vs\\PhotoScout\\Source\\dev\\PhotoScouter\\PhotoScouterWeb\\PhotoScouterWeb.csproj
+		SccProjectTopLevelParentUniqueName6 = PhotoOrganizer.sln
+		SccProjectName6 = ../../PhotoScouter/PhotoScouterWeb
+		SccLocalPath6 = ..\\..\\..\\..\\ProjectsShare\\ruimelo@vs\\PhotoScout\\Source\\dev\\PhotoScouter\\PhotoScouterWeb
+	EndGlobalSection
+EndGlobal
